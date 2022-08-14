@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+div {
+    margin: 20px 480px;
+    padding: 75px 0px;
+    text-align: center;
+    border: 2px solid rgba(29, 29, 73, 0.041);
+}
+
+button {
+    width: 230px;
+    padding: 3px;
+    margin-left: 25px;
+    background: #73d9e6;
+    border: 3px solid #73d9e6;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h1 {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.forget-P {
+    margin-left: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.left {
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.space {
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+button:hover{
+    color:black;
+}
+
+.forget-P:hover{
+    color: rgb(99, 92, 175);
+}
+
+.new:hover{
+    color: rgb(185, 195, 224);
+}
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+
+  .invalid {
+    color: red;
+  }
+
+  .valid {
+    color: green;
+  }
+  
+.M-invalid{
+    display: none;
+    color: red;
+}
+
+.L-invalid{
+display: none;
+    color: red;
+}
+
+.U-invalid{
+    display: none;
+    color: red;
+}
+
+.N-invalid{
+    display: none;
+    color: red;
+}
+
+.P-invalid{
+    display: none;
+    color: red;
+}
+
+.mail{
+    display: none;
+    color: red;
+}
+
+.I-mail{
+    display: none;
+    color: red;
+}
